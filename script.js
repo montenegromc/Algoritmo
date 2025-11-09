@@ -47,7 +47,7 @@ for(let i = 0; i < numAlunos; i++) {
     }
 }
 
-document.writeln('<u> Médias ordenadas (crescente):</u> <br>'); for (let i = 0; i< numAlunos; i++) {
+document.writeln('<u> Médias ordenadas:</u> <br>'); for (let i = 0; i< numAlunos; i++) {
     document.writeln(`${alunos[i].nome}: ${alunos[i].media.toFixed(1)}<br>`)
 };
 document.writeln("<br> <u>Quantidade de aprovados</u>" + aprovados + "<br>");
